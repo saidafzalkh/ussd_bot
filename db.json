@@ -1,0 +1,456 @@
+{
+    "messages": {
+        "start_message": "<b>Hello</b> \n Welcome to USSD bot! \n <a href='https://www.wikipedia.org'>more info here</a>"
+    },
+    "mobile_operators": [
+        "Beeline",
+        "Ucell",
+        "Uzmobile",
+        "Mobiuz",
+        "Perfectum",
+        "Humans"
+    ],
+    "services": {
+        "uz": [
+            "Internet paketlari",
+            "USSD kodlar",
+            "Tarif rejalari",
+            "Xizmatlar"
+        ]
+    },
+    "micro_services":{
+        "uz": [
+            "SMS to'plamlari",
+            "Daqiqa to'plamlari"
+        ]
+    },
+    "internet_packages": {
+        "Beeline" : [
+            {
+                "name": "1GB",
+                "price": "10 000",
+                "current_traffic": "1024MB",
+                "period": "30",
+                "ussd_code": "*1*01"
+            },
+            {
+                "name": "2GB",
+                "price": "15 000",
+                "current_traffic": "2048MB",
+                "period": "30",
+                "ussd_code": "*1*02"
+            },
+            {
+                "name": "5GB",
+                "price": "25 000",
+                "current_traffic": "5120MB",
+                "period": "30",
+                "ussd_code": "*1*05"
+            },
+            {
+                "name": "10GB",
+                "price": "45 000",
+                "current_traffic": "10240MB",
+                "period": "30",
+                "ussd_code": "*1*10"
+            },
+            {
+                "name": "20GB",
+                "price": "65 000",
+                "current_traffic": "20480MB",
+                "period": "30",
+                "ussd_code": "*1*20"
+            },
+            {
+                "name": "30GB",
+                "price": "75 000",
+                "current_traffic": "30720MB",
+                "period": "30",
+                "ussd_code": "*1*30"
+            },
+            {
+                "name": "50GB",
+                "price": "90 000",
+                "current_traffic": "51200MB",
+                "period": "30",
+                "ussd_code": "*1*50"
+            },
+            {
+                "name": "75GB",
+                "price": "110 000",
+                "current_traffic": "76800MB",
+                "period": "30",
+                "ussd_code": "*1*75"
+            }
+        ],
+        "Ucell" : [
+            {
+                "name": "1GB",
+                "price": "8 900",
+                "current_traffic": "1024MB",
+                "period": "30",
+                "ussd_code": "*558*1*1"
+            },
+            {
+                "name": "1,5GB",
+                "price": "13 000",
+                "current_traffic": "1536MB",
+                "period": "30",
+                "ussd_code": "*558*1*2"
+            },
+            {
+                "name": "2GB",
+                "price": "15 000",
+                "current_traffic": "2048MB",
+                "period": "30",
+                "ussd_code": "*558*1*3"
+            },
+            {
+                "name": "4GB",
+                "price": "25 000",
+                "current_traffic": "4096MB",
+                "period": "30",
+                "ussd_code": "*558*1*4"
+            },
+            {
+                "name": "7GB",
+                "price": "35 000",
+                "current_traffic": "7168MB",
+                "period": "30",
+                "ussd_code": "*558*1*5"
+            },
+            {
+                "name": "10GB",
+                "price": "45 000",
+                "current_traffic": "10240MB",
+                "period": "30",
+                "ussd_code": "*558*1*13"
+            },
+            {
+                "name": "13GB",
+                "price": "55 000",
+                "current_traffic": "13312MB",
+                "period": "30",
+                "ussd_code": "*558*1*6"
+            },
+            {
+                "name": "20GB",
+                "price": "65 000",
+                "current_traffic": "20480MB",
+                "period": "30",
+                "ussd_code": "*558*1*7"
+            },
+            {
+                "name": "30GB",
+                "price": "75 000",
+                "current_traffic": "30720MB",
+                "period": "30",
+                "ussd_code": "*558*1*8"
+            },
+            {
+                "name": "50GB",
+                "price": "85 000",
+                "current_traffic": "51200MB",
+                "period": "30",
+                "ussd_code": "*558*1*9"
+            },
+            {
+                "name": "80GB",
+                "price": "115 000",
+                "current_traffic": "81920MB",
+                "period": "30",
+                "ussd_code": "*558*1*10"
+            },
+            {
+                "name": "90GB",
+                "price": "135 000",
+                "current_traffic": "92160MB",
+                "period": "30",
+                "ussd_code": "*558*1*11"
+            },
+            {
+                "name": "135GB",
+                "price": "188 000",
+                "current_traffic": "138240MB",
+                "period": "30",
+                "ussd_code": "*558*1*12"
+            }
+        ],
+        "Uzmobile" : [
+            {
+                "name": "1GB",
+                "price": "9 000",
+                "current_traffic": "1024MB",
+                "period": "30",
+                "ussd_code": "*147*10072"
+            },
+            {
+                "name": "1,5GB",
+                "price": "14 000",
+                "current_traffic": "1536MB",
+                "period": "30",
+                "ussd_code": "*147*10073"
+            },
+            {
+                "name": "3GB",
+                "price": "18 000",
+                "current_traffic": "3072MB",
+                "period": "30",
+                "ussd_code": "*147*10074"
+            },
+            {
+                "name": "5GB",
+                "price": "25 000",
+                "current_traffic": "4096MB",
+                "period": "30",
+                "ussd_code": "*147*10075"
+            },
+            {
+                "name": "8GB",
+                "price": "35 000",
+                "current_traffic": "8192MB",
+                "period": "30",
+                "ussd_code": "*147*10076"
+            },
+            {
+                "name": "12GB",
+                "price": "50 000",
+                "current_traffic": "12288MB",
+                "period": "30",
+                "ussd_code": "*147*10077"
+            },
+            {
+                "name": "16GB",
+                "price": "60 000",
+                "current_traffic": "16384MB",
+                "period": "30",
+                "ussd_code": "*147*10267"
+            },
+            {
+                "name": "20GB",
+                "price": "65 000",
+                "current_traffic": "20480MB",
+                "period": "30",
+                "ussd_code": "*147*10078"
+            },
+            {
+                "name": "30GB",
+                "price": "75 000",
+                "current_traffic": "30720MB",
+                "period": "30",
+                "ussd_code": "*147*10079"
+            },
+            {
+                "name": "50GB",
+                "price": "85 000",
+                "current_traffic": "51200MB",
+                "period": "30",
+                "ussd_code": "*147*10080"
+            },
+            {
+                "name": "75GB",
+                "price": "110 000",
+                "current_traffic": "81920MB",
+                "period": "30",
+                "ussd_code": "*147*10150"
+            }
+        ],
+        "Mobiuz" : [
+            {
+                "name": "300MB",
+                "price": "8 000",
+                "current_traffic": "300MB",
+                "period": "30",
+                "ussd_code": "*171*019*1"
+            },
+            {
+                "name": "500MB",
+                "price": "9 000",
+                "current_traffic": "500MB",
+                "period": "30",
+                "ussd_code": "*171*019*7"
+            },
+            {
+                "name": "1000MB",
+                "price": "11 000",
+                "current_traffic": "1000MB",
+                "period": "30",
+                "ussd_code": "*171*019*2"
+            },
+            {
+                "name": "2000MB",
+                "price": "17 000",
+                "current_traffic": "2000MB",
+                "period": "30",
+                "ussd_code": "*171*019*5"
+            },
+            {
+                "name": "3000",
+                "price": "25 000",
+                "current_traffic": "3000MB",
+                "period": "30",
+                "ussd_code": "*171*019*3"
+            },
+            {
+                "name": "5000MB",
+                "price": "33 000",
+                "current_traffic": "5000MB",
+                "period": "30",
+                "ussd_code": "*171*019*4"
+            },
+            {
+                "name": "20 000MB",
+                "price": "55 000",
+                "current_traffic": "20000MB",
+                "period": "30",
+                "ussd_code": "*171*019*8"
+            },
+            {
+                "name": "30 000MB",
+                "price": "65 000",
+                "current_traffic": "30000MB",
+                "period": "30",
+                "ussd_code": "*171*019*9"
+            },
+            {
+                "name": "50 000MB",
+                "price": "75 000",
+                "current_traffic": "30720MB",
+                "period": "30",
+                "ussd_code": "*171*019*10"
+            }
+        ],
+        "Perfectum" : [
+            {
+                "name": "75MB",
+                "price": "7 500",
+                "current_traffic": "75MB",
+                "period": "30",
+                "ussd_code": "7*7*75"
+            },
+            {
+                "name": "150MB",
+                "price": "10 000",
+                "current_traffic": "150MB",
+                "period": "30",
+                "ussd_code": "7*7*150"
+            },
+            {
+                "name": "300MB",
+                "price": "17 000",
+                "current_traffic": "300MB",
+                "period": "30",
+                "ussd_code": "7*7*300"
+            },
+            {
+                "name": "600MB",
+                "price": "25 000",
+                "current_traffic": "600MB",
+                "period": "30",
+                "ussd_code": "7*7*600"
+            },
+            {
+                "name": "1200",
+                "price": "35 000",
+                "current_traffic": "1200MB",
+                "period": "30",
+                "ussd_code": "7*7*1200"
+            },
+            {
+                "name": "2400MB",
+                "price": "45 000",
+                "current_traffic": "2400MB",
+                "period": "30",
+                "ussd_code": "7*7*2400"
+            },
+            {
+                "name": "3600MB",
+                "price": "55 000",
+                "current_traffic": "3600MB",
+                "period": "30",
+                "ussd_code": "7*7*3600"
+            },
+            {
+                "name": "4800MB",
+                "price": "65 000",
+                "current_traffic": "4800MB",
+                "period": "30",
+                "ussd_code": "7*7*4800"
+            },
+            {
+                "name": "7200MB",
+                "price": "95 000",
+                "current_traffic": "7200MB",
+                "period": "30",
+                "ussd_code": "7*7*7200"
+            },
+            {
+                "name": "9600MB",
+                "price": "125 000",
+                "current_traffic": "9600MB",
+                "period": "30",
+                "ussd_code": "7*7*9600"
+            },
+            {
+                "name": "19200MB",
+                "price": "175 000",
+                "current_traffic": "19200MB",
+                "period": "30",
+                "ussd_code": "7*7*19200"
+            }
+        ],
+        "Humans" : [
+            {
+                "name": "3000MB",
+                "price": "12 000",
+                "current_traffic": "3000MB",
+                "period": "30",
+                "ussd_code": "https://humans.uz/en/calculator/"
+            },
+            {
+                "name": "5000MB",
+                "price": "20 000",
+                "current_traffic": "5000MB",
+                "period": "30",
+                "ussd_code": "https://humans.uz/en/calculator/"
+            },
+            {
+                "name": "VIP",
+                "price": "50 000",
+                "current_traffic": "CHEKSIZ",
+                "period": "30",
+                "ussd_code": "https://humans.uz/en/calculator/"
+            }
+        ]
+    },
+    "ussd_codes": {
+        "Beeline": " *102# - Balansni tekshirish \n *141# - Ishonchli to'lov (qarz olish) xizmati \n *5# - \"Perezagruzka\" xizmatini ulash \n *115# - Barcha xizmatlarni o'chirish \n *110*889# - \"4G\" xizmatini yoqish \n *24# - \"4G\" Tarmog'ini tekshirish \n *120# - \"4G\" Paket qoldig'ini tekshirish \n *148# - Mening Raqamim \n *103# - MegaBayt qoldig'ini tekshirish \n *105# - SMS qoldig'ini tekshirish \n *106# - Daqiqalar qoldig'ini tekshirish \n *202# - Abonent to'lovining yechilish sanasini aniqlash \n *303# - Mening raqamlarim \n *110*05# - Tarif rejani tekshirish \n *110*09# - Qo'shimcha xizmatlarni tekshirish \n *101# - Ijtimoiy tarmoqlar uchun MegaBayt \n *22# - Avtomatik Internet sozlamalar so'rovi \n *112# - Rossiya Beeline yo'nalishidagi daqiqalar \n *110*00# - dollar kursi \n *6# - \"Beeline TV\" ilovasi \n *9# - \"Belline Music\" ilovasi \n *#06# - Telefoningizni IMEI kodini bilish \n *43# - Kutib turishni faollashtirish \n *#67# - Pereadresatsiyani tekshirish",
+        "Ucell": " *100# - Balans \n **977*1*1# - \"Sizga qo'ng'iroq qilishdi\" xizmati \n *900# - Yagona hisob \n *200# - To'lov Sanasini tekshirish \n *911# - Mobil avans (Qarz olish) \n *450# - Mening raqamim \n *222# - \"Restart\" xizmati \n *350# - Kontent xizmatlarni o'chirish \n *467# - \"Al Chiroq\" limitlar qoldig'ini tekshirish \n *107# - Megabayt qoldiqlarini tekshirish \n *147# - SMS qoldiqlarini tekshirish \n *102# - Bonus Daqiqalar qoldig'ini tekshirish \n *400# - SMS tafsilot \n *103# - Limitlar qoldig'ini tekshirish \n *401# - Mening xizmatlarim \n *360# - Mening raqamlarim \n *111*4*2*2# - Internet sozlamalar \n *255# - \"Special\" tarifi uchun 10 000 so'm evaziga 2GB \n *912# - Mobil avans (Qarz) qoldig'ini tekshirish \n *111# - USSD menu \n *350# - Kontent xizmatlarni o'chirish \n *221# - SMS info \n *220# - Til tanlash \n *757# - Oson almashuv xizmati \n *43# - Kutib turishni faollashtirish \n *#67# - Pereadresatsiyani faollashtirish \n *#06# - Telefonning IMEI kodini bilib olish",
+        "Uzmobile": "*102# - Balans \n *102# - Balans",
+        "Perfectum": "*102# - Balans \n *102# - Balans",
+        "Humans": "*102# - Balans \n *102# - Balans",
+        "Mobiuz": "*102# - Balans \n *102# - Balans"
+    },
+    "rate": {
+        "Beeline": [
+            {
+                "name": "Hammasi ZO'R 1",
+                "price": "20 000",
+                "min": "1500",
+                "traffic": "3GB",
+                "sms": "500",
+                "more": "",
+                "ussd": "*2*3#"
+            },
+            {
+                "name": "Hammasi ZO'R 2",
+                "price": "30 000",
+                "min": "2500",
+                "traffic": "5GB",
+                "sms": "500",
+                "more": "",
+                "ussd": "*2*5#"
+            }
+        ]
+    }
+}
