@@ -3,19 +3,19 @@
         "start_message": "<b>Hello</b> \n Welcome to USSD bot! \n <a href='https://www.wikipedia.org'>more info here</a>"
     },
     "mobile_operators": [
-        "Beeline",
-        "Ucell",
-        "Uzmobile",
-        "Mobiuz",
-        "Perfectum",
-        "Humans"
+        "Beeline 🐝",
+        "Ucell 🟣",
+        "Uzmobile 🇺🇿",
+        "Mobiuz 🔻",
+        "Perfectum 🟠",
+        "Humans 🟡"
     ],
     "services": {
         "uz": [
-            "Internet paketlari",
-            "USSD kodlar",
-            "Tarif rejalari",
-            "Xizmatlar"
+            "Internet paketlari 🌐",
+            "USSD kodlar 🔢",
+            "Tarif rejalari 🗓",
+            "Xizmatlar ⚙️"
         ]
     },
     "micro_services":{
@@ -425,32 +425,685 @@
     },
     "ussd_codes": {
         "Beeline": " *102# - Balansni tekshirish \n *141# - Ishonchli to'lov (qarz olish) xizmati \n *5# - \"Perezagruzka\" xizmatini ulash \n *115# - Barcha xizmatlarni o'chirish \n *110*889# - \"4G\" xizmatini yoqish \n *24# - \"4G\" Tarmog'ini tekshirish \n *120# - \"4G\" Paket qoldig'ini tekshirish \n *148# - Mening Raqamim \n *103# - MegaBayt qoldig'ini tekshirish \n *105# - SMS qoldig'ini tekshirish \n *106# - Daqiqalar qoldig'ini tekshirish \n *202# - Abonent to'lovining yechilish sanasini aniqlash \n *303# - Mening raqamlarim \n *110*05# - Tarif rejani tekshirish \n *110*09# - Qo'shimcha xizmatlarni tekshirish \n *101# - Ijtimoiy tarmoqlar uchun MegaBayt \n *22# - Avtomatik Internet sozlamalar so'rovi \n *112# - Rossiya Beeline yo'nalishidagi daqiqalar \n *110*00# - dollar kursi \n *6# - \"Beeline TV\" ilovasi \n *9# - \"Belline Music\" ilovasi \n *#06# - Telefoningizni IMEI kodini bilish \n *43# - Kutib turishni faollashtirish \n *#67# - Pereadresatsiyani tekshirish",
-        "Ucell": " *100# - Balans \n **977*1*1# - \"Sizga qo'ng'iroq qilishdi\" xizmati \n *900# - Yagona hisob \n *200# - To'lov Sanasini tekshirish \n *911# - Mobil avans (Qarz olish) \n *450# - Mening raqamim \n *222# - \"Restart\" xizmati \n *350# - Kontent xizmatlarni o'chirish \n *467# - \"Al Chiroq\" limitlar qoldig'ini tekshirish \n *107# - Megabayt qoldiqlarini tekshirish \n *147# - SMS qoldiqlarini tekshirish \n *102# - Bonus Daqiqalar qoldig'ini tekshirish \n *400# - SMS tafsilot \n *103# - Limitlar qoldig'ini tekshirish \n *401# - Mening xizmatlarim \n *360# - Mening raqamlarim \n *111*4*2*2# - Internet sozlamalar \n *255# - \"Special\" tarifi uchun 10 000 so'm evaziga 2GB \n *912# - Mobil avans (Qarz) qoldig'ini tekshirish \n *111# - USSD menu \n *350# - Kontent xizmatlarni o'chirish \n *221# - SMS info \n *220# - Til tanlash \n *757# - Oson almashuv xizmati \n *43# - Kutib turishni faollashtirish \n *#67# - Pereadresatsiyani faollashtirish \n *#06# - Telefonning IMEI kodini bilib olish",
-        "Uzmobile": "*102# - Balans \n *102# - Balans",
-        "Perfectum": "*102# - Balans \n *102# - Balans",
-        "Humans": "*102# - Balans \n *102# - Balans",
-        "Mobiuz": "*102# - Balans \n *102# - Balans"
+        "Ucell": " *100# - Balansni tekshirish \n **977*1*1# - \"Sizga qo'ng'iroq qilishdi\" xizmati \n *900# - Yagona hisob \n *200# - To'lov Sanasini tekshirish \n *911# - Mobil avans (Qarz olish) \n *450# - Mening raqamim \n *222# - \"Restart\" xizmati \n *350# - Kontent xizmatlarni o'chirish \n *467# - \"Al Chiroq\" limitlar qoldig'ini tekshirish \n *107# - Megabayt qoldiqlarini tekshirish \n *147# - SMS qoldiqlarini tekshirish \n *102# - Bonus Daqiqalar qoldig'ini tekshirish \n *400# - SMS tafsilot \n *103# - Limitlar qoldig'ini tekshirish \n *401# - Mening xizmatlarim \n *360# - Mening raqamlarim \n *111*4*2*2# - Internet sozlamalar \n *255# - \"Special\" tarifi uchun 10 000 so'm evaziga 2GB \n *912# - Mobil avans (Qarz) qoldig'ini tekshirish \n *111# - USSD menu \n *350# - Kontent xizmatlarni o'chirish \n *221# - SMS info \n *220# - Til tanlash \n *757# - Oson almashuv xizmati \n *43# - Kutib turishni faollashtirish \n *#67# - Pereadresatsiyani faollashtirish \n *#06# - Telefonning IMEI kodini bilib olish",
+        "Uzmobile": "*107# - Balansni tekshirish va limit qoldiqlar \n *100*4# - Mening raqamim \n *100*5# - Mening raqamlarim \n *100*2# - Daqiqa, SMS, MegaBayt qoldiqlari \n *111*2*7*1# - \"4G LTE\"ni yoqish \n *111*2*7*2# - \"4G LTE\"ni o'chirish \n *43# - Kutib turishni faollashtirish \n *#67# - Preradresatsiyani tekshirish \n*#06# - Telefoningizni IMEI kodini bilish \n *555# - \"Restart\" xizmati",
+        "Perfectum": "9*1 - Balansni tekshirish \n 9*4 - Oxirgi to'lov haqida ma'lumot \n 9*6 - Imtiyozli limit haqida ma'lumot \n 9*8 - Abonentning shartnomasidagi abonent raqami soni to'g'risida ma'lumot \n 9*7 - Joriy tarif rejasi haqida ma'lumot \n 9*0 - Servislar haqida ma'lumot \n 9*10*0 - Bugungi kun ob havosi \n 9*10*1 - Ertangi kun ob havosi \n 9*10*2 - Indingi kun ob havosi \n 9*17*1 - \"Ringtone\" yoqish \n 9*17*0 - \"Ringtone\" o'chirish \n 7*201 - Xalqaro aloqani yoqish \n *7*200 - Xalqaro aloqani o'chirish",
+        "Humans": "*102# - Balansni tekshirish \n *106# - Daqiqalar va MegaBayt qoldig'ini tekshirish \n *664579# - Mening raqamim \n *43# - Chaqiriqni kutis va  ushlab turish \n *#67# - Pereadresatsiyani tekshirish \n *#06# - Telefoningizni IMEI kodini bilish \n *33*0000# - Chiquvchi qo'ng'iroqlarni ta'qiqlash \n *35*0000# - Kiruvchi qo'ng'iroq va SMS larni ta'qiqlash \n *330*0000# - Barcha chiquvchi va kiruvchi qo'ng'iroqlarga qo'yilgan ta'qiqlarni bekor qilish",
+        "Mobiuz": "*102# - MegaBayt qoldig'ini tekshirish \n *100# - Balansni tekshirish \n *103# - Daqiqa qoldig'ini tekshirish \n *104# - SMS qoldig'ini tekshirish \n *102*0# - Bonusli internet to'plamlarni tekshirish \n *140# - Mening xizmatlarim \n *111*32# - Qarz olish \n *111*0271# - Reklamani taqiqlash \n *150# - Mening raqamim \n *151# - Mening raqamlarim \n *111*015# - Oxirgi to'lov \n *111*025# - Mening xarajatlarim \n *111*320# - Va'da qilingan to'lov qoldig'ini tekshirish \n *111*0140# - Gudok ximatini o'chirish \n *111*0151# - Pul o'tkazishni taqiqlash \n *111*0011# - Mobil internetni yoqish \n *222*1# - \"4G LTE\"ni yoqish \n *43# - Kutib turishni faollashtirish \n *#67# - Pereadresatsiyani tekshirish \n *#06# - Telefoningizni IMEI kodini bilish \n *162# - Yozgi kayfiyat aksiyasini aktivlashtirish"
     },
     "rate": {
-        "Beeline": [
+        "Beeline":[
+            {
+                "name": "Oson 10",
+                "price": "10 000",
+                "min": "10 daqiqa",
+                "traffic": "10 MegaBayt",
+                "sms": "10 SMS",
+                "more": "Hisobda kamida 10 250 so'm mablag' bo'lishi kerak",
+                "ussd": "*110*61#"
+            },
             {
                 "name": "Hammasi ZO'R 1",
-                "price": "20 000",
-                "min": "1500",
-                "traffic": "3GB",
-                "sms": "500",
-                "more": "",
+                "price": "20 000 so'm",
+                "min": "1 500 daqiqa",
+                "traffic": "3Gb + 3Gb tungi bonus (01:00 - 08:00)",
+                "sms": "500 SMS",
+                "more": "Hisobda kamida 20 250 so'm mablag' bo'lishi kerak",
                 "ussd": "*2*3#"
             },
             {
                 "name": "Hammasi ZO'R 2",
-                "price": "30 000",
-                "min": "2500",
-                "traffic": "5GB",
-                "sms": "500",
-                "more": "",
+                "price": "30 000 so'm",
+                "min": "2 500 daqiqa",
+                "traffic": "5Gb + 5Gb tungi bonus (01:00 - 08:00)",
+                "sms": "500 SMS",
+                "more": "Hisobda kamida 30 250 so'm mablag' bo'lishi kerak \n Beeline TV - Cheksiz",
                 "ussd": "*2*5#"
+            },
+            {
+                "name": "Hammasi ZO'R 3",
+                "price": "40 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "8Gb + 8Gb tungi bonus (01:00 - 08:00)",
+                "sms": "1 000 SMS",
+                "more": "Hisobda kamida 40 250 so'm mablag' bo'lishi kerak \n Beeline TV - Cheksiz \n Beeline Music - Cheksiz",
+                "ussd": "*2*8#"
+            },
+            {
+                "name": "Hammasi ZO'R 4",
+                "price": "60 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "15Gb + 15Gb tungi bonus (01:00 - 08:00)",
+                "sms": "1 000 SMS",
+                "more": "Hisobda kamida 60 250 so'm mablag' bo'lishi kerak \n Beeline TV - Cheksiz \n Beeline Music - Cheksiz",
+                "ussd": "*2*15#"
+            },
+            {
+                "name": "Status Silver",
+                "price": "95 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "30Gb + 30Gb tungi bonus (01:00 - 08:00)",
+                "sms": "2 000 SMS",
+                "more": "Hisobda kamida 95 250 so'm mablag' bo'lishi kerak. \n Beeline TV - Cheksiz \n Beeline Music - Cheksiz \n Roumingda VEON hududi uchun kiritilgan MB paketi 100MB \n Bepul oltin raqam",
+                "ussd": "*2*30#"
+            },
+            {
+                "name": "Status Gold",
+                "price": "135 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "50Gb + 50Gb tungi bonus (01:00 - 08:00)",
+                "sms": "2 000 SMS",
+                "more": "Hisobda kamida 135 250 so'm mablag' bo'lishi kerak. \n Beeline TV - Cheksiz \n Beeline Music - Cheksiz \n Roumingda VEON hududi uchun kiritilgan MB paketi 250MB \n Roumingda VEON hududi uchun kiritilgan daqiqalar paketi - 50 daqiqa \n Bepul oltin raqam",
+                "ussd": "*2*50#"
+            },
+            {
+                "name": "Status Platinium",
+                "price": "200 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "150Gb + 150Gb tungi bonus (01:00 - 08:00)",
+                "sms": "2 000 SMS",
+                "more": "Hisobda kamida 200 250 so'm mablag' bo'lishi kerak. \n Beeline TV - Cheksiz \n Beeline Music - Cheksiz \n Roumingda VEON hududi uchun kiritilgan MB paketi 500MB \n Roumingda VEON hududi uchun kiritilgan daqiqalar paketi - 100 daqiqa \n Barcha xalqaro qo'ng'iroqlar uchun kiritilgan daqiqalar paketi - 100 daqiqa Bepul oltin raqam",
+                "ussd": "*2*150#"
+            },
+            {
+                "name": "Oson 1",
+                "price": "40 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "1 Mb - 1 so'm",
+                "sms": "1 SMS - 1 so'm",
+                "more": "Hisobda kamida 40 250 so'm mablag' bo'lishi kerak. Balansingizda bir oylik abonent to'lovini yechish uchun yetarli mablag' bo'lmasa: \n Chiqish qo'ng'iroqlari daqiqasi - 100 so'm \n Internet 1Mb - 100 so'm \n O'zbekiston bo'yicha SMS - 100 so'm",
+                "ussd": "*2*01#"
+            },
+            {
+                "name": "Kunlik",
+                "price": "600 so'm/kun",
+                "min": "60 daqiqa/kun",
+                "traffic": "60 Mb/kun",
+                "sms": "1 SMS - 100 so'm",
+                "more": "Barcha kirish qo'ng'iroqlari - 0 so'm \n O'zbekiston bo'yicha chiqish qo'ng'iroqlari - 100 so'm \n Internet 1 Mb - 100 so'm \n SMS - 100 so'm",
+                "ussd": "*110*580#"
+            },
+            {
+                "name": "Bolajon",
+                "price": "11 500 so'm",
+                "min": "Tarmoq ichida chiqish qo'ng'iroqlari uchun - 500 daqiqa \n Boshqa yo'nalishlarga qo'ng'iroqlar - 125 so'm/daqiqa",
+                "traffic": "1 500 Mb",
+                "sms": "O'zbekiston bo'yicha chiquvchi SMS - 85 so'm",
+                "more": "Hisobda kamida 40 250 so'm mablag' bo'lishi kerak. \n Barcha kirish qo'ng'iroqlari - 0 so'm \n Tarif rejaga o'tish - 0 so'm",
+                "ussd": "*110*538#"
+            },
+            {
+                "name": "Welcome",
+                "price": "50 000 so'm",
+                "min": "1 000 daqiqa",
+                "traffic": "10 000 Mb",
+                "sms": "1 000 SMS",
+                "more": "Faqat chet el fuqarolari uchun! \n Hisobda kamida 50 250 so'm mablag' bo'lishi kerak. \nBarcha kirish qo'ng'iroqlari - 0 so'm",
+                "ussd": ""
+            },
+            {
+                "name": "Uydagidek",
+                "price": "55 000 so'm",
+                "min": "Beeline tarmog'ida Qozog'iston va Rossiyadagi mahalliy raqamlari uchun chiquvchi qo'ng'iroqlar - 100 daqiqa/oy \n O'zbekiston bo'yicha daqiqalar - 2 000 daqiqa/oy",
+                "traffic": "Internet barcha yo'nalishlarga Beeline tarmog'ida Qozog'iston va Rossiya bo'ylab - 5 000 Mb/oy \n O'zbekiston bo'ylab internet - 2 000 Mb",
+                "sms": "O'zbekiston bo'yicha SMS paketi - 200 SMS",
+                "more": " Hisobda kamida 55 250 so'm mablag' bo'lishi kerak",
+                "ussd": "*110*66#"
+            }
+        ],
+        "Ucell":[
+            {
+                "name": "Sof 18",
+                "price": "18 000 so'm",
+                "min": "1 200 daqiqa",
+                "traffic": "3 Gb",
+                "sms": "500 SMS",
+                "more": "Trafik hamda daqiqalar \"kuyib ketmaydi\" va keyingi oyga ko'chirib o'tkaziladi \n Limitdan tashqari 1 MB/ 1 daqiqa/ 1 SMS narxi - 50 so'm",
+                "ussd": "*120#"
+            },
+            {
+                "name": "Sof 30",
+                "price": "30 000 so'm",
+                "min": "3 000 daqiqa",
+                "traffic": "7 Gb",
+                "sms": "1 500 SMS",
+                "more": "Trafik hamda daqiqalar \"kuyib ketmaydi\" va keyingi oyga ko'chirib o'tkaziladi \n Limitdan tashqari 1 MB/ 1 daqiqa/ 1 SMS narxi - 50 so'm",
+                "ussd": "*120#"
+            },
+            {
+                "name": "Sof 40",
+                "price": "40 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "10 Gb",
+                "sms": "1 500 SMS",
+                "more": "Trafik hamda daqiqalar \"kuyib ketmaydi\" va keyingi oyga ko'chirib o'tkaziladi \n Limitdan tashqari 1 MB/ 1 daqiqa/ 1 SMS narxi - 25 so'm",
+                "ussd": "*120#"
+            },
+            {
+                "name": "Sof 50",
+                "price": "50 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "13 Gb",
+                "sms": "2 500 SMS",
+                "more": "Trafik hamda daqiqalar \"kuyib ketmaydi\" va keyingi oyga ko'chirib o'tkaziladi \n Limitdan tashqari 1 MB/ 1 daqiqa/ 1 SMS narxi - 25 so'm",
+                "ussd": "*120#"
+            },
+            {
+                "name": "Sof 70",
+                "price": "70 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "22 Gb",
+                "sms": "4 000 SMS",
+                "more": "Trafik hamda daqiqalar \"kuyib ketmaydi\" va keyingi oyga ko'chirib o'tkaziladi \n Limitdan tashqari 1 MB/ 1 daqiqa/ 1 SMS narxi - 25 so'm",
+                "ussd": "*120#"
+            },
+            {
+                "name": "Sof 100",
+                "price": "100 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "35 Gb",
+                "sms": "5 000 SMS",
+                "more": "Trafik hamda daqiqalar \"kuyib ketmaydi\" va keyingi oyga ko'chirib o'tkaziladi \n Limitdan tashqari 1 MB/ 1 daqiqa/ 1 SMS narxi - 25 so'm",
+                "ussd": "*120#"
+            },
+            {
+                "name": "Sof 150",
+                "price": "150 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "Cheksiz",
+                "sms": "5 000 SMS",
+                "more": "Trafik hamda daqiqalar \"kuyib ketmaydi\" va keyingi oyga ko'chirib o'tkaziladi \n Limitdan tashqari 1 MB/ 1 daqiqa/ 1 SMS narxi - 25 so'm",
+                "ussd": "*120#"
+            }
+        ],
+        "Mobiuz":[
+            {
+                "name": "Mobi 150",
+                "price": "150 000 so'm",
+                "min": "Cheksiz daqiqa",
+                "traffic": "100 000 Mb",
+                "sms": "10 000 SMS",
+                "more": "",
+                "ussd": "*111*134#"
+            },
+            {
+                "name": "Mobiuz 110",
+                "price": "110 000 so'm",
+                "min": "Cheksiz daqiqa",
+                "traffic": "80 000 Mb",
+                "sms": "5 000 SMS",
+                "more": "",
+                "ussd": "*111*133#"
+            },
+            {
+                "name": "Mobi 90",
+                "price": "90 000 so'm",
+                "min": "Tarmoq ichida cheksiz, O'zbekiston bo'ylab 5 000 daqiqa",
+                "traffic": "65 000 Mb",
+                "sms": "3 500 SMS",
+                "more": "",
+                "ussd": "*111*132#"
+            },
+            {
+                "name": "Mobi 70",
+                "price": "70 000 so'm",
+                "min": "Tarmoq ichida cheksiz, O'zbekiston bo'ylab 5 000 daqiqa",
+                "traffic": "20 000 Mb",
+                "sms": "3 500 SMS",
+                "more": "",
+                "ussd": "*111*131#"
+            },
+            {
+                "name": "Mobi 60",
+                "price": "60 000/3 000 so'm oyiga/kuniga",
+                "min": "Tarmoq ichida cheksiz, O'zbekiston bo'ylab 5 000/167 daqiqa oyiga/kuniga",
+                "traffic": "15 000 Mb/500 Mb oyiga/kuniga",
+                "sms": "5 000/167 SMS oyiga/kuniga",
+                "more": "",
+                "ussd": "*111*130#"
+            },
+            {
+                "name": "Mobi 50+",
+                "price": "50 000/2 500 so'm oyiga/kuniga",
+                "min": "Tarmoq ichida cheksiz, O'zbekiston bo'ylab 5 000/167 daqiqa oyiga/kuniga",
+                "traffic": "10 000 Mb/333 Mb oyiga/kuniga",
+                "sms": "3 500/117 SMS oyiga/kuniga",
+                "more": "",
+                "ussd": "*111*129#"
+            },
+            {
+                "name": "Mobi 40",
+                "price": "40 000/2 000 so'm oyiga/kuniga",
+                "min": "Tarmoq ichida cheksiz, O'zbekiston bo'ylab 5 000/167 daqiqa oyiga/kuniga",
+                "traffic": "8 000 Mb/267 Mb oyiga/kuniga",
+                "sms": "3 500/117 SMS oyiga/kuniga",
+                "more": "",
+                "ussd": "*111*122#"
+            },
+            {
+                "name": "Mobi 30+",
+                "price": "30 000/1 500 so'm oyiga/kuniga",
+                "min": "5 000/167 daqiqa oyiga/kuniga",
+                "traffic": "5 000 Mb/167 Mb oyiga/kuniga",
+                "sms": "3 500/117 SMS oyiga/kuniga",
+                "more": "",
+                "ussd": "*111*128#"
+            },
+            {
+                "name": "Mobi 25",
+                "price": "25 000/1 250 so'm oyiga/kuniga",
+                "min": "3 500/117 daqiqa oyiga/kuniga",
+                "traffic": "3 500 Mb/117 Mb oyiga/kuniga",
+                "sms": "3 500/117 SMS oyiga/kuniga",
+                "more": "",
+                "ussd": "*111*102#"
+            },
+            {
+                "name": "Mobi 20",
+                "price": "20 000/1 000 so'm oyiga/kuniga",
+                "min": "2 000/67 daqiqa oyiga/kuniga",
+                "traffic": "2 000 Mb/67 Mb oyiga/kuniga",
+                "sms": "2 000/67 SMS oyiga/kuniga",
+                "more": "",
+                "ussd": "*111*120#"
+            },
+            {
+                "name": "Mobi 16",
+                "price": "16 000/800 so'm oyiga/kuniga",
+                "min": "1 600/53 daqiqa oyiga/kuniga",
+                "traffic": "1 600 Mb/53 Mb + 1 600 Mb/53 Mb Tungi internet(01:00 - 08:00) oyiga/kuniga",
+                "sms": "160/5 SMS oyiga/kuniga",
+                "more": "",
+                "ussd": "*111*116#"
+            },
+            {
+                "name": "Gap yo'q Pro",
+                "price": "75 000/3 750 so'm oyiga/kuniga",
+                "min": "Tarmoq ichida cheksiz aloqa, 1 000/34 daqiqa oyiga/kuniga",
+                "traffic": "50 000 Mb/1 667 Mb oyiga/kuniga",
+                "sms": "Chiquvchi SMS narxi - 12 so'm",
+                "more": "",
+                "ussd": "*111*101#"
+            },
+            {
+                "name": "Gap yo'q Maxi",
+                "price": "55 000/1 833 so'm oyiga/kuniga",
+                "min": "Tarmoq ichida cheksiz aloqa, 750/25 daqiqa oyiga/kuniga",
+                "traffic": "30 000 Mb/1 000 Mb oyiga/kuniga",
+                "sms": "Chiquvchi SMS narxi - 12 so'm",
+                "more": "",
+                "ussd": "*111*104#"
+            },
+            {
+                "name": "Gap yo'q",
+                "price": "35 000/1 750 so'm oyiga/kuniga",
+                "min": "Tarmoq ichida cheksiz aloqa, 500/17 daqiqa oyiga/kuniga",
+                "traffic": "10 000 Mb/334 Mb oyiga/kuniga",
+                "sms": "Chiquvchi SMS narxi - 12 so'm",
+                "more": "",
+                "ussd": "*111*100#"
+            },
+            {
+                "name": "Gap yo'q Mini",
+                "price": "20 000/667 so'm oyiga/kuniga",
+                "min": "Tarmoq ichida cheksiz aloqa, 250/9 daqiqa oyiga/kuniga",
+                "traffic": "5 000 Mb/167 Mb oyiga/kuniga",
+                "sms": "Chiquvchi SMS narxi - 12 so'm",
+                "more": "",
+                "ussd": "*111*103#"
+            },
+            {
+                "name": "Chilla Lite+",
+                "price": "20 000/1 000 so'm oyiga/kuniga",
+                "min": "Tarmoq ichida 3 000/100 daqiqa oyiga/kuniga",
+                "traffic": "200 Mb/7 Mb oyiga/kuniga",
+                "sms": "100/3 SMS kuniga/oyiga",
+                "more": "O'zbekiston bo'yicha chiqish qo'ng'iroqlari 1 daqiqasi - 50 so'm, \n SMS - 50 so'm",
+                "ussd": "*111*042#"
+            },
+            {
+                "name": "Omad Plus",
+                "price": "12 000/600 so'm oyiga/kuniga",
+                "min": "400/14 daqiqa oyiga/kuniga",
+                "traffic": "500 Mb/17 Mb oyiga/kuniga",
+                "sms": "400/14 SMS kuniga/oyiga",
+                "more": "O'zbekiston bo'yicha chiqish qo'ng'iroqlari 1 daqiqasi - 12 so'm, \n SMS - 12 so'm",
+                "ussd": "*#"
+            }
+        ],
+        "Uzmobile":[
+            {
+                "name": "Milliy 10",
+                "price": "10 000 so'm",
+                "min": "10 daqiqa",
+                "traffic": "10 Mb",
+                "sms": "10 SMS",
+                "more": "GSM Abonentlari uchun. Limitdan tashqari 1Mb, 1daqiqa, 1SMS uchun - 10 so'm",
+                "ussd": "*111*2*11*1#"
+            },
+            {
+                "name": "Milliy 15",
+                "price": "15 000 so'm",
+                "min": "100 daqiqa",
+                "traffic": "500Mb",
+                "sms": "500 SMS",
+                "more": "GSM Abonentlari uchun. Limitdan tashqari 1Mb, 1daqiqa, 1SMS uchun - 5 so'm",
+                "ussd": "*111*2*11*2#"
+            },
+            {
+                "name": "Milliy 40",
+                "price": "40 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "8 Gb",
+                "sms": "3 000 SMS",
+                "more": "GSM Abonentlari uchun. Limitdan tashqari 1Mb, 1SMS uchun - 80 so'm",
+                "ussd": "*111*2*11*3#"
+            },
+            {
+                "name": "Milliy 50",
+                "price": "50 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "12 Gb",
+                "sms": "5 000 SMS",
+                "more": "GSM Abonentlari uchun. Limitdan tashqari 1Mb, 1SMS uchun - 80 so'm",
+                "ussd": "*111*2*11*4#"
+            },
+            {
+                "name": "Milliy 70",
+                "price": "70 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "20 Gb",
+                "sms": "5 000 SMS",
+                "more": "GSM Abonentlari uchun. Limitdan tashqari 1Mb, 1SMS uchun - 80 so'm",
+                "ussd": "*111*2*11*5#"
+            },
+            {
+                "name": "Milliy 100",
+                "price": "100 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "35 Gb",
+                "sms": "5 000 SMS",
+                "more": "GSM Abonentlari uchun. Limitdan tashqari 1Mb, 1SMS uchun - 80 so'm",
+                "ussd": "*111*2*11*6#"
+            },
+            {
+                "name": "Milliy 150",
+                "price": "150 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "Cheksiz",
+                "sms": "5 000 SMS",
+                "more": "GSM Abonentlari uchun. Limitdan tashqari 1SMS uchun - 80 so'm",
+                "ussd": "*111*2*11*7#"
+            }
+        ],
+        "Perfectum":[
+            {
+                "name": "Qulay 15",
+                "price": "15 000 so'm",
+                "min": "300 daqiqa",
+                "traffic": "300 Mb",
+                "sms": "300 SMS",
+                "more": "",
+                "ussd": "7*15"
+            },
+            {
+                "name": "Qulay 25",
+                "price": "25 000 so'm",
+                "min": "600 daqiqa",
+                "traffic": "600Mb",
+                "sms": "600 SMS",
+                "more": "",
+                "ussd": "7*25"
+            },
+            {
+                "name": "Qulay 45",
+                "price": "45 000 so'm",
+                "min": "1 500 Daqiqa",
+                "traffic": "1.5 Gb",
+                "sms": "1 500 SMS",
+                "more": "",
+                "ussd": "7*45"
+            },
+            {
+                "name": "Qulay 65",
+                "price": "65 000 so'm",
+                "min": "6 000 Daqiqa",
+                "traffic": "6 Gb",
+                "sms": "5 000 SMS",
+                "more": "",
+                "ussd": "7*65"
+            },
+            {
+                "name": "Qulay 85",
+                "price": "85 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "20 Gb",
+                "sms": "5 000 SMS",
+                "more": "",
+                "ussd": "7*85"
+            },
+            {
+                "name": "Qulay 100",
+                "price": "100 000 so'm",
+                "min": "Cheksiz",
+                "traffic": "30 Gb",
+                "sms": "10 000 SMS",
+                "more": "",
+                "ussd": "7*100"
             }
         ]
+    },
+    "SMS": {
+        "Beeline":[
+            {
+                "name": "100 SMS paket",
+                "price": "5 300 so'm",
+                "period": "30 kun",
+                "ussd": "*110*044#"
+            },
+            {
+                "name": "500 SMS paket",
+                "price": "13 700 so'm",
+                "period": "30 kun",
+                "ussd": "*110*045#"
+            },
+            {
+                "name": "1 000 SMS paket",
+                "price": "22 200 so'm",
+                "period": "30 kun",
+                "ussd": "*110*046#"
+            },
+            {
+                "name": "SMS NON - STOP",
+                "price": "Kunlik abonent to'lovi 1 300 so'm (Ushbu xizmat kuniga 250 ta mahallaiy SMS ni o'z ichiga oladi)",
+                "period": "Kunlik",
+                "ussd": "*110*151#"
+            }
+        ],
+        "Uzmobile":
+                [{
+                    "name": "50 SMS",
+                    "price": "Kunlik abonent to'lovi 420 so'm",
+                    "period": "Kunlik",
+                    "ussd": "*111*2*19*1*1#"
+                },
+                {
+                    "name": "100 SMS",
+                    "price": "Kunlik abonent to'lovi 840 so'm",
+                    "period": "Kunlik",
+                    "ussd": "*111*1*2*19*2*1#"
+                }],
+                "Mobiuz":
+                [{
+                    "name": "SMS 100",
+                    "price": "4 500 so'm",
+                    "period": "30 kun",
+                    "ussd": "*104*100#"
+                },
+                {
+                    "name": "SMS 300",
+                    "price": "10 500 so'm",
+                    "period": "30 kun",
+                    "ussd": "*104*300#"
+                }],
+                "Perfectum":
+                [{
+                    "name": "50 SMS",
+                    "price": "1 500 so'm",
+                    "period": "30 kun",
+                    "ussd": "7*4*50"
+                },
+                {
+                    "name": "200 SMS",
+                    "price": "5 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "7*4*200"
+                },
+                {
+                    "name": "500 SMS",
+                    "price": "10 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "7*4*500"
+                },
+                {
+                    "name": "1 000 SMS",
+                    "price": "20 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "7*4*1000"
+                }],
+                "Humans":
+                [{
+                    "name": "Cheksiz SMS",
+                    "price": "7 000 so'm",
+                    "period": "30 kun",
+                    "ussd": ""
+                }],
+                "Ucell":
+                [{
+                    "name": "Kunlik SMS 25",
+                    "price": "Kunlik abonent to'lovi 631.5 so'm",
+                    "period": "Kunlik",
+                    "ussd": "*148*1*1#"
+                },
+                {
+                    "name": "Kunlik SMS 40",
+                    "price": "Kunlik abonent to'lovi 842 so'm",
+                    "period": "Kunlik",
+                    "ussd": "*148*1*2#"
+                },
+                {
+                    "name": "Kunlik SMS 75",
+                    "price": "Kunlik abonent to'lovi 1 263 so'm",
+                    "period": "Kunlik",
+                    "ussd": "*148*1*3#"
+                }]
+    },
+    "minutes": {
+        "Ucell":
+                [{
+                    "name": "200 Daqiqa",
+                    "price": "4 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*130*2*1#"
+                },
+                {
+                    "name": "600 Daqiqa",
+                    "price": "8 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*130*2*2#"
+                },
+                {
+                    "name": "1 200 Daqiqa",
+                    "price": "12 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*130*2*3#"
+                }],
+                "Uzmobile":
+                [{
+                    "name": "100 Daqiqa",
+                    "price": "4 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*111*2*3*1#"
+                },
+                {
+                    "name": "300 Daqiqa",
+                    "price": "10 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*111*2*3*2#"
+                },
+                {
+                    "name": "600 Daqiqa",
+                    "price": "16 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*111*2*3*3#"
+                },
+                {
+                    "name": "1 200 Daqiqa",
+                    "price": "24 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*111*2*3*4#"
+                }],
+                "Mobiuz":
+                [{
+                    "name": "60 Daqiqalik to'plam",
+                    "price": "4 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*103*60#"
+                },
+                {
+                    "name": "120 Daqiqalik to'plam",
+                    "price": "7 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*103*120#"
+                },
+                {
+                    "name": "180 Daqiqalik to'plam",
+                    "price": "10 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*103*180#"
+                },
+                {
+                    "name": "300 Daqiqalik to'plam",
+                    "price": "16 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*103*300#"
+                },
+                {
+                    "name": "900 Daqiqalik to'plam",
+                    "price": "37 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*103*900#"
+                },
+                {
+                    "name": "1 200 Daqiqalik to'plam",
+                    "price": "45 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*103*1200#"
+                },
+                {
+                    "name": "1 800 Daqiqalik to'plam",
+                    "price": "62 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*103*60#"
+                }],
+                "Beeline":
+                [{
+                    "name": "Extra 200",
+                    "price": "10 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*110*500#"
+                },
+                {
+                    "name": "Extra 400",
+                    "price": "18 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*110*501#"
+                },
+                {
+                    "name": "Extra 600",
+                    "price": "25 000 so'm",
+                    "period": "30 kun",
+                    "ussd": "*110*502#"
+                }]
     }
 }
